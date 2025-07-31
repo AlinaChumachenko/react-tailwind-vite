@@ -3,14 +3,17 @@
 @tailwind utilities;
 
 body {
-    @apply font-space text-sm  bg-loft-wall bg-cover;
-  }
+  @apply font-space text-sm  bg-loft-wall bg-cover;
+}
 
-  .text-outline {
-    text-shadow:
-      -1px -1px 0 #7f827c,
-       1px -1px 0 #7f827c,
-      -1px  1px 0 #7f827c,
-       1px  1px 0 #7f827c;
-  }
+button {
+  cursor: pointer;
+}
 
+.text-outline {
+  text-shadow:
+    -1px -1px 0 #7f827c,
+    1px -1px 0 #7f827c,
+    -1px 1px 0 #7f827c,
+    1px 1px 0 #7f827c;
+}
